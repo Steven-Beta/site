@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Feliz Cumpleaños</title>
+
+<!-- CONEXIÓN CSS -->
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- TORTA -->
+<img src="https://cdn-icons-png.flaticon.com/512/3468/3468377.png"
+class="torta"
+onclick="abrir()">
+
+<!-- PANEL -->
+<div class="panel" id="panel">
+
+<div class="contenido">
+
+<h2>👑 ¡Feliz Cumpleaños! 🎂</h2>
+
+<div class="player">
+<img src="https://i.ibb.co/tP8sBMkG/IMG-20260321-191200.jpg">
+<p>🎵 Tu Cumpleaños 🎵</p>
+
+<audio id="audio" controls>
+<source src="file:///C:/Users/ASCM237/Documents/vs_code.py/Canci%C3%B3n/canci%C3%B3n/cumplea%C3%B1os.mp3.mp3">
+</audio>
+</div>
+
+<div class="mensaje">
+  <p>💖 Hoy celebramos no solo un año más de vida, sino la hermosa persona que eres. Tu alegría, tu forma de ser y todo lo que transmites hacen que quienes te rodean se sientan afortunados de tenerte cerca. Eres alguien especial, con un corazón lleno de bondad, y hoy más que nunca mereces sonreír y sentirte querida en cada momento de este día tan importante. 💖</p>
+
+  <p>🎉 Quiero que este cumpleaños esté lleno de momentos inolvidables, de abrazos sinceros, de risas que no se acaben y de sueños que comiencen a hacerse realidad. Aunque la distancia a veces no permita estar presente físicamente, quiero que sientas todo el cariño que te envío y que sepas que siempre estás en mis pensamientos. 🎉</p>
+
+  <p>💕 Gracias por ser una persona tan valiosa en mi vida, por cada consejo, cada palabra y cada gesto que has tenido conmigo. Hoy te deseo un día lleno de amor, paz y felicidad, y que este nuevo año venga con muchas bendiciones y alegrías. ¡Feliz cumpleaños tía, te quiero muchísimo! 💕</p>
+</div>
+
+<!-- CARRUSEL -->
+<div class="carrusel" id="carrusel">
+<img src="https://i.ibb.co/6c3sXQtb/FB-IMG-1724968595301.jpg">
+<img src="https://i.ibb.co/gbrYXtgD/IMG-20260321-WA0019.jpg">
+<img src="https://i.ibb.co/v6fpYv1k/IMG-20230717-WA0005.jpg">
+<img src="https://i.ibb.co/8DdMS8rj/IMG-20260321-WA0014.jpg">
+</div>
+
+</div>
+</div>
+
+<!-- MODAL -->
+<div class="modal" id="modal" onclick="cerrarImagen()">
+  <img id="imgGrande">
+</div>
+
+<!-- CONEXIÓN JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
