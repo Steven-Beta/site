@@ -1,0 +1,23 @@
+MUSA — PROTOTIPO FUNCIONAL CORREGIDO
+
+Contenido:
+- index.html: interfaz completa en un solo archivo (HTML + CSS + JavaScript).
+- assets/: seis fotografías locales de los perfiles de artistas proporcionadas para el prototipo.
+
+Cómo abrir:
+1. Extrae la carpeta MUSA_FINAL del ZIP.
+2. Abre la carpeta en Visual Studio Code.
+3. Abre index.html en Chrome o Edge (doble clic). No requiere Live Server.
+
+Qué incluye:
+- Abre directamente con contenido visible, sin una pantalla de acceso bloqueando la interfaz.
+- Match con seis perfiles con nombre, fotografía, géneros, ciudad, rol, biografía y botones de pasar/like.
+- Matches de demostración iniciales y chats visibles al entrar.
+- Descubrir con publicaciones, videos y proyectos; filtros por tipo y creación de publicaciones.
+- Chat con conversaciones y envío de mensajes simulados.
+- Perfil editable de Andrés con publicaciones, videos, proyectos y logros.
+- Ajustes en la parte superior del perfil: privacidad, visibilidad en Descubrir, ubicación, seguridad demostrativa, notificaciones y restablecer datos.
+- Botón Música con sonido sintetizado por el navegador.
+- Guardado local en el navegador (localStorage).
+
+Nota: Es un prototipo académico de front-end. No hay servidor, autenticación real ni base de datos compartida. Los nombres de artistas conocidos se usan como perfiles ilustrativos; no representa una conexión real con ellos. Algunas imágenes del feed usan Unsplash y necesitan Internet; las fotos de perfiles están incluidas en assets/.
